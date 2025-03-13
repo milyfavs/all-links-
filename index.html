@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meus Links</title>
+  <style>
+    /* -------- RESET BÁSICO -------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* -------- ESTILOS GERAIS -------- */
+    body {
+      font-family: Arial, sans-serif;
+      /* Fundo em gradiente */
+      background: linear-gradient(135deg, #f0c3fc, #a9e0f5);
+      text-align: center;
+      padding: 20px;
+      min-height: 100vh; /* Para ocupar toda a tela verticalmente */
+    }
+    
+    /* -------- CONTAINER -------- */
+    .container {
+      max-width: 600px; /* Aumentado para deixar mais largo */
+      margin: 0 auto;   /* Centraliza horizontalmente */
+    }
+    
+    /* -------- FOTO DE PERFIL -------- */
+    .profile-img {
+      width: 150px;     /* Aumentado (antes era 120px) */
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px auto; /* Mais espaço abaixo */
+    }
+    
+    /* -------- TÍTULO -------- */
+    .profile-title {
+      font-size: 2rem;  /* Aumentado (antes era 1.5rem) */
+      font-weight: bold;
+      color: #000000;
+      margin-bottom: 10px; /* Mais espaço abaixo */
+    }
+    
+    /* -------- DESCRIÇÃO -------- */
+    .profile-desc {
+      font-size: 1.2rem; /* Aumentado (antes era 1rem) */
+      color: #666;
+      margin-bottom: 30px; /* Mais espaço abaixo */
+    }
+    
+    /* -------- LISTA DE LINKS -------- */
+    .links-list {
+      list-style: none; /* Remove marcadores de lista */
+      padding: 0;
+    }
+    
+    .links-list li {
+      margin-bottom: 20px; /* Mais espaço entre botões */
+    }
+    
+    /* -------- BOTÕES ROSA -------- */
+    .link-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffffff;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;   /* Aumentado (antes era 1rem) */
+      padding: 14px 24px; /* Mais espaço interno */
+      border-radius: 30px;/* Arredondado maior (antes era 25px) */
+      transition: background 0.3s;
+    }
+    
+    .link-btn:hover {
+      background-color: #ffffff;  /* Muda levemente ao passar o mouse */
+    }
+    
+    /* -------- ÍCONES DENTRO DOS BOTÕES -------- */
+    .link-btn img {
+      width: 28px;   /* Aumentado (antes era 24px) */
+      height: 28px;
+      object-fit: cover;
+      margin-right: 10px; /* Um pouco mais de espaço entre ícone e texto */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- FOTO DE PERFIL -->
+    <img 
+      src="C:\Users\Gustavo\Downloads\SaveClip.App_357667824_573964974812130_482757283246490638_n.jpg" 
+      alt="Foto de Perfil" 
+      class="profile-img" 
+    />
+    
+    <!-- TÍTULO -->
+    <h1 class="profile-title">THAY</h1>
+    
+    <!-- DESCRIÇÃO -->
+    <p class="profile-desc">Oi! Obrigado por clicar nos meus links!</p>
+    
+    <!-- LISTA DE LINKS -->
+    <ul class="links-list">
+      <!-- WhatsApp -->
+      <li>
+        <a href="https://wa.me/5513981449622"
+         class="link-btn" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+          WhatsApp
+        </a>
+      </li>
+      <!-- Telegram -->
+      <li>
+        <a href="https://t.me/+XdzJIybnzdQwNDYx" class="link-btn" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111644.png" alt="telegram" />
+          Previas Telegram
+        </a>
+      </li>
+      <!-- Instagram -->
+      <li>
+        <a href="https://instagram.com/thaay_loppes" class="link-btn" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+          Instagram
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
